@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Tony Stark</title>
+    <link rel="icon" href="./icons/favicon.ico" type="icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <style>
+      body {
+        background-color: #000000;
+      }
+      .navbar,
+      .box,
+      .card {
+        background-color: #b71c1c;
+        color: #fdd835;
+      }
+      .title,
+      .subtitle,
+      .content p {
+        color: #fdd835;
+      }
+      .card-image figure {
+        border-bottom: 5px solid #fdd835; /* Dourado */
+      }
+      .navbar-item,
+      .navbar-link {
+        color: #fdd835; /* Dourado */
+      }
+      .footer {
+        background-color: #b71c1c; /* Vermelho escuro */
+        color: #fdd835; /* Dourado */
+        padding: 1rem 0;
+      }
+      .footer a {
+        color: #fdd835; /* Dourado */
+      }
+      .footer-icons {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img src="/public/Bulma Logo.svg" alt="Logo" />
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">Início</a>
+          <a class="navbar-item" href="contato.html">Contato</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <!-- Left Column -->
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="./images/Stark.jpg"
+                    alt="Tony Stark Profile Picture"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Tony Stark</p>
+                    <p class="subtitle is-6">
+                      Gênio, Bilionário, Playboy, Filantropo
+                    </p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>(11) 12345-6789</p>
+                  <p>tony@starkindustries.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Right Column -->
+          <div class="column">
+            <div class="box">
+              <h3 class="title is-5">Sobre mim</h3>
+              <p>
+                Eu sou Tony Stark, conhecido como Homem de Ferro. Sou um
+                inventor genial e líder da Stark Industries. Sempre à frente da
+                tecnologia, estou empenhado em proteger o mundo com minhas
+                criações avançadas.
+              </p>
+            </div>
+            <div class="box">
+              <h3 class="title is-5">Experiências</h3>
+              <div class="media">
+                <figure class="media-left">
+                  <p class="image is-128x128">
+                    <img src="./images/industries.jpg" />
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <p class="title is-6">CEO</p>
+                  <p class="subtitle is-6">Stark Industries</p>
+                  <p>
+                    Liderando a Stark Industries, desenvolvi novas tecnologias
+                    que revolucionaram a indústria e contribuíram
+                    significativamente para a defesa global.
+                  </p>
+                </div>
+              </div>
+              <div class="media">
+                <figure class="media-left">
+                  <p class="image is-128x128">
+                    <img src="./images/Avengers-2-Age-of-Ultron-128x128.jpg" />
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <p class="title is-6">Vingador</p>
+                  <p class="subtitle is-6">Os Vingadores</p>
+                  <p>
+                    Como membro fundador dos Vingadores, usei minhas habilidades
+                    e tecnologia para combater ameaças que colocam em risco a
+                    segurança mundial.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <h3 class="title is-5">Formação</h3>
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-6">
+                    Mestrado em Engenharia Elétrica e Ciência da Computação
+                  </p>
+                  <p class="subtitle is-6">
+                    MIT - Massachusetts Institute of Technology
+                  </p>
+                  <p>
+                    Graduado com honras, especialização em robótica e
+                    inteligência artificial.
+                  </p>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-6">Bacharelado em Física</p>
+                  <p class="subtitle is-6">Harvard University</p>
+                  <p>Foco em tecnologias avançadas e energia sustentável.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Feito com</strong>
+          <a href="https://bulma.io"> <i class="fas fa-heart"></i> Bulma </a>
+        </p>
+        <div class="footer-icons">
+          <a href="https://github.com/O-Farias" class="icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/_fariasm/" class="icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mateus-farias-b6ab77247/"
+            class="icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
